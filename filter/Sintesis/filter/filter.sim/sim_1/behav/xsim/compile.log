@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/ezequiel/CLP/N_bit_Reg/Fuentes/N_bit_Reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity N_bit_Reg
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/ezequiel/CLP/filter/Fuentes/FIR_RI.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FIR_RI
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/ezequiel/CLP/filter/Fuentes/FIR_RI_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_FIR

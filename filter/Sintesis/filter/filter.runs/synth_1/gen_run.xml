@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z010clg400-1" LaunchTime="1661469627">
+  <File Type="VDS-TIMING-PB" Name="FIR_RI_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="FIR_RI_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="FIR_RI.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="FIR_RI_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="FIR_RI_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="FIR_RI_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="FIR_RI.vds"/>
+  <File Type="REPORTS-TCL" Name="FIR_RI_reports.tcl"/>
+  <File Type="PA-TCL" Name="FIR_RI.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../../../N_bit_Reg/Fuentes/N_bit_Reg.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Fuentes/FIR_RI.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="FIR_RI"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../../../filter_vio_ila/Fuentes/Arty-Z7-10-Master.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PPRDIR/../../../filter_vio_ila/Fuentes/Arty-Z7-10-Master.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

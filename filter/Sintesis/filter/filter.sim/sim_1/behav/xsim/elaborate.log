@@ -1,0 +1,19 @@
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2018.1/bin/unwrapped/lnx64.o/xelab -wto a22c8beb41b94dd38dbee0a6a1df9bd7 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot TB_FIR_behav xil_defaultlib.TB_FIR -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling architecture behavioral of entity xil_defaultlib.N_bit_Reg [n_bit_reg_default]
+Compiling architecture behaivioral of entity xil_defaultlib.FIR_RI [fir_ri_default]
+Compiling architecture behaivioral of entity xil_defaultlib.tb_fir
+Built simulation snapshot TB_FIR_behav

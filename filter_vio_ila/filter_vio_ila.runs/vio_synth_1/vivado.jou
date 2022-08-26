@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun Aug 21 20:35:05 2022
+# Process ID: 11357
+# Current directory: /home/ezequiel/CLP/filter_vio_ila/filter_vio_ila.runs/vio_synth_1
+# Command line: vivado -log vio.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source vio.tcl
+# Log file: /home/ezequiel/CLP/filter_vio_ila/filter_vio_ila.runs/vio_synth_1/vio.vds
+# Journal file: /home/ezequiel/CLP/filter_vio_ila/filter_vio_ila.runs/vio_synth_1/vivado.jou
+#-----------------------------------------------------------
+source vio.tcl -notrace
